@@ -1,0 +1,206 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #2c6e49; /* Dark green for text */
+    background-color: #fefee3; /* Light yellow background */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4c956c; /* Muted green for header */
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefee3; /* Light yellow for logo text */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links a {
+    color: #fefee3; /* Light yellow for navigation links */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-btn {
+    margin-top: -1px;
+    padding: 5px 20px;
+    background-color: #d68c45; /* Golden yellow for the login button */
+    color: #2c6e49; /* Dark green text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-banner.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ffc9b9; /* Peach for the hero text */
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #d68c45; /* Golden yellow for the button */
+    color: #2c6e49; /* Dark green text */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Key Features Section */
+.key-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffc9b9; /* Peach for the background */
+}
+
+.key-features .feature {
+    text-align: center;
+    max-width: 250px;
+    background-color: #fefee3; /* Light yellow for feature boxes */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.key-features h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c6e49; /* Dark green for headings */
+}
+
+.key-features p {
+    color: #4c956c; /* Muted green for feature descriptions */
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #4c956c; /* Muted green for testimonials */
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #fefee3; /* Light yellow for section title */
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    color: #2c6e49; /* Dark green for testimonial text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #2c6e49; /* Dark green for footer */
+    color: white;
+    padding: 30px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #fefee3; /* Light yellow for footer links */
+    text-decoration: none;
+}
+
+footer .social-media a {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffc9b9; /* Peach for social media links */
+}
+
+.footer-content .helpline p {
+    font-size: 16px;
+    color: #d68c45; /* Golden yellow for helpline text */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .key-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-slider {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
