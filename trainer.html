@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Defendo - Certified Trainers</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styles for the trainer section */
+        .trainer-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #fefee3; /* Light yellow background */
+        }
+        .search-bar {
+            margin: 20px 0;
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .trainer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 40px; /* Increased gap between trainer cards */
+            margin-top: 20px;
+        }
+        .trainer {
+            border: 1px solid #2c6e49; /* Dark green border */
+            border-radius: 10px;
+            background-color: white; /* White background for trainer cards */
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            margin: 20px; /* Added margin for vertical spacing */
+        }
+        .trainer:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+        .trainer img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .trainer p {
+            margin: 10px 0; /* Space between details */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/DkxQbnX/logo-final.png" alt="logo-final" border="0">
+            <h1>DEFENDO</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="#" id="trainersLink">Trainers</a></li>
+                <li><a href="#">Corporate Packages</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a class="login-btn" href="#">Login/Sign-Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Trainer Section -->
+    <section class="trainer-section">
+        <h2>Our Certified Trainers</h2>
+        <input type="text" class="search-bar" placeholder="Search available trainers...">
+
+        <div class="trainer-grid">
+            <div class="trainer">
+                <img src="trainer1.jpg" alt="Trainer 1">
+                <h3>Anil Kumar Sharma</h3>
+                <p>Qualification: Black Belt in Karate</p>
+                <p>Experience: 5 years</p>
+                <p>Associated Centre: Defendo Academy, New Delhi</p>
+                <p>Location: New Delhi, India</p>
+            </div>
+
+            <div class="trainer">
+                <img src="trainer2.jpg" alt="Trainer 2">
+                <h3>Jaya Singh</h3>
+                <p>Qualification: Certified Self-Defense Instructor</p>
+                <p>Experience: 8 years</p>
+                <p>Associated Centre: Urban Combat Centre, Mumbai</p>
+                <p>Location: Mumbai, India</p>
+            </div>
+
+            <div class="trainer">
+                <img src="trainer3.jpg" alt="Trainer 3">
+                <h3>Rahul Kumar</h3>
+                <p>Qualification: Mixed Martial Arts Trainer</p>
+                <p>Experience: 6 years</p>
+                <p>Associated Centre: Fight Club, Bangalore</p>
+                <p>Location: Bangalore, India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h4>Follow Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div class="helpline">
+                <h4>Helpline</h4>
+                <p>Call us: +91-0101-xxxxx</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
