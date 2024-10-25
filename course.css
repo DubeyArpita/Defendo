@@ -126,21 +126,82 @@ header {
 .key-features p {
     color: #4c956c; /* Muted green for feature descriptions */
 }
-
-/* Course Options Section */
+/* Basic styling for the entire course-options section */
 .course-options {
-    display: none; /* Hidden by default */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    padding: 50px;
-    background-color: #fefee3; /* Light yellow for background */
+    font-family: Arial, sans-serif;
 }
 
+.course-options h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Container styling for each course type */
+.course-container {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Distinct styling for Basic and Advanced course containers */
+.basic-course {
+    background-color: #f0f9ff; /* Light blue background */
+    border-color: #2196F3;    /* Blue border */
+}
+
+.advanced-course {
+    background-color: #fff7e6; /* Light yellow background */
+    border-color: #FF9800;     /* Orange border */
+}
+
+/* Styling for each course option */
+.course-option h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.course-option p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #555;
+}
+
+/* Course Options Section */
+/* .course-options {
+    display: none; /* Hidden by default */
+/*     text-align: center;
+    padding: 50px;
+    background-color: #fefee3; /* Light yellow for background */
+/*}
+/*
 .course-options h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #2c6e49; /* Dark green for headings */
-}
-
+/*}
+/*
 .course-option {
     margin: 20px 0;
 }
@@ -148,21 +209,22 @@ header {
 .course-option h3 {
     font-size: 28px;
     color: #4c956c; /* Muted green for course titles */
-}
-
+/*}
+/*
 .course-option p {
     font-size: 18px;
     color: #2c6e49; /* Dark green for course descriptions */
-}
-
+/*}
+/*
 .cta-btn {
     padding: 10px 20px;
     background-color: #d68c45; /* Golden yellow for buttons */
-    color: #ffffff; /* White text */
-    text-decoration: none;
+/*     color: #ffffff; /* White text */
+    /*text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-}
+} 
+*/ 
 
 /* Testimonials Section */
 .testimonials {
