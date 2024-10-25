@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('images/self-defense.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for improved text visibility */
+    z-index: -1; /* Send overlay behind content */
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for the container */
+    padding: 40px; /* Increased padding for spacious feel */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Deeper shadow for more depth */
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px; /* Wider for better layout */
+}
+
+.close-btn {
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+}
+
+h3 {
+    margin-bottom: 20px; /* Space below headings */
+}
+
+.option {
+    display: inline-block; /* Align buttons horizontally */
+    margin: 10px; /* Space between buttons */
+    padding: 15px 25px; /* Larger padding for buttons */
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition effects */
+}
+
+.option:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px; /* Increased padding for input fields */
+    width: calc(100% - 20px); /* Full width minus padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745; /* Submit button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
