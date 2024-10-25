@@ -188,43 +188,6 @@ header {
     background-color: #555;
 }
 
-/* Course Options Section */
-/* .course-options {
-    display: none; /* Hidden by default */
-/*     text-align: center;
-    padding: 50px;
-    background-color: #fefee3; /* Light yellow for background */
-/*}
-/*
-.course-options h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #2c6e49; /* Dark green for headings */
-/*}
-/*
-.course-option {
-    margin: 20px 0;
-}
-
-.course-option h3 {
-    font-size: 28px;
-    color: #4c956c; /* Muted green for course titles */
-/*}
-/*
-.course-option p {
-    font-size: 18px;
-    color: #2c6e49; /* Dark green for course descriptions */
-/*}
-/*
-.cta-btn {
-    padding: 10px 20px;
-    background-color: #d68c45; /* Golden yellow for buttons */
-/*     color: #ffffff; /* White text */
-    /*text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-} 
-*/ 
 
 /* Testimonials Section */
 .testimonials {
