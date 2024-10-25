@@ -1,0 +1,122 @@
+/* Basic reset and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefee3;
+}
+
+/* Header styling */
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c6e49;
+    color: #fefee3;
+    padding: 5px 20px; /* Reduced padding to decrease height */
+}
+
+.logo h1 {
+    margin-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a, .login-btn {
+    color: #fefee3;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover, .login-btn:hover {
+    color: #ffc9b9;
+}
+
+/* Main content styling */
+.course-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fefee3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.greeting-section h2, .greeting-section h3 {
+    color: #2c6e49;
+    text-align: center;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.progress-tracker {
+    flex: 1;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ffc9b9;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4c956c;
+}
+
+.progress-percent {
+    font-size: 14px;
+    color: #2c6e49;
+    margin-top: 5px;
+}
+
+.language-selector {
+    flex: 0 0 150px;
+}
+
+.video-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-section img {
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #d68c45;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #2c6e49;
+    color: #fefee3;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content a {
+    color: #ffc9b9;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #fefee3;
+}
