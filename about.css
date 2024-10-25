@@ -83,6 +83,24 @@ header {
     margin: 0 auto;
 }
 
+/* Video Container */
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #2c6e49; /* Dark green for video title */
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: 315px; /* Standard YouTube video height */
+    border: none; /* Remove border */
+}
+
 /* Footer */
 footer {
     background-color: #2c6e49; /* Dark green for footer */
@@ -131,4 +149,13 @@ footer .social-media a {
         flex-direction: column;
         gap: 10px;
     }
+
+    .about-us {
+        padding: 30px;
+    }
+
+    .video-container {
+        margin: 15px 0;
+    }
 }
+
