@@ -173,7 +173,7 @@ header {
     border-radius: 5px;
     font-weight: bold;
     display: inline-block; /* Makes button block-level for spacing */
-    margin-top: 15px; /* Space above button */
+    margin-top: 80%; /* Space above button */
 }
 
 /* Testimonials Section */
