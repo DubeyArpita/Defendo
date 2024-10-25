@@ -1,0 +1,172 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #2c6e49; /* Dark green for text */
+    background-color: #fefee3; /* Light yellow background */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4c956c; /* Muted green for header */
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefee3; /* Light yellow for logo text */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links a {
+    color: #fefee3; /* Light yellow for navigation links */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-btn {
+    margin-top: -1px;
+    padding: 5px 20px;
+    background-color: #d68c45; /* Golden yellow for the login button */
+    color: #2c6e49; /* Dark green text */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-banner.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-top: 120px;
+    color: #2f4f4f; /* Peach for the hero text */
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    background-color: #d68c45; /* Golden yellow for the button */
+    color: #ffffff; /* Dark green text */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Trainers Section */
+.trainers-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fefee3; /* Light yellow background */
+}
+
+.trainer {
+    margin: 30px 0; /* Increased vertical margin for spacing */
+    padding: 20px;
+    border: 1px solid #4c956c; /* Muted green border */
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px; /* Fixed width for trainer cards */
+}
+
+.trainer h3 {
+    color: #2c6e49; /* Dark green for trainer names */
+}
+
+.trainer p {
+    color: #4c956c; /* Muted green for additional info */
+}
+
+/* Footer */
+footer {
+    background-color: #2c6e49; /* Dark green for footer */
+    color: white;
+    padding: 30px 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #fefee3; /* Light yellow for footer links */
+    text-decoration: none;
+}
+
+footer .social-media a {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffc9b9; /* Peach for social media links */
+}
+
+.footer-content .helpline p {
+    font-size: 16px;
+    color: #d68c45; /* Golden yellow for helpline text */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .trainer {
+        width: 90%; /* Responsive width for trainers */
+    }
+}
